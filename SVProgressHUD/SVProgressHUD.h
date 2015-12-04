@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AvailabilityMacros.h>
-#import "SVProgressHUD-Framework.h"
+
 #if __IPHONE_OS_VERSION_MAX_ALLOWED < 70000
 
 #define UI_APPEARANCE_SELECTOR

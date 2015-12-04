@@ -1,15 +1,17 @@
 //
 //  SVProgressHUD-Framework.h
-//  SVProgressHUD
+//  SVProgressHUD-Framework
 //
-//  Created by Chris Rittersdorf on 12/4/15.
-//  Copyright © 2015 EmbeddedSources. All rights reserved.
+//  Created by Florent Vilmart on 2015-03-13.
+//  Copyright (c) 2015 EmbeddedSources. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 
-// This is an empty header file to quiet warnings for
-#ifndef SVProgressHUD_Framework_h
-#define SVProgressHUD_Framework_h
+//! Project version number for SVProgressHUD-Framework.
+FOUNDATION_EXPORT double SVProgressHUD_FrameworkVersionNumber;
 
+//! Project version string for SVProgressHUD-Framework.
+FOUNDATION_EXPORT const unsigned char SVProgressHUD_FrameworkVersionString[];
 
-#endif /* SVProgressHUD_Framework_h */
+#import <SVProgressHUD/SVProgressHUD.h>
